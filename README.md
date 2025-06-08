@@ -25,21 +25,22 @@ Cette API permet de gérer le stock de bouteilles de gaz :
    git clone https://github.com/eli900-c/Gestgaz.git
    cd Gestgaz
 
-2. Installer les dépendances
-   npm install
+2. Installation des dépendances
+   ```bash
+    npm install
 
 
 3.Configurer les variables d’environnement
 
 Crée un fichier .env à la racine :
 
-ongodbMONGODB_URI=ton_url_m
+   ```bash
+MONGODB_URI=ton_url_m
 PORT=3000
 JWT_SECRET=une_chaine_secrete
 
 
-
-4. Lancer le server
+4 Lancer le server
 
    npm run dev
        ou
